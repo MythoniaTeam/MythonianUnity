@@ -228,7 +228,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
   m_Name: 
@@ -4526,3 +4526,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2870907128066661739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2870907125974978217, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126730525900, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -803130437, guid: 7ba40b429427aa9488e77393298558c7, type: 3}
+    - target: {fileID: 2870907126842544851, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: IsActivated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544860, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870907126842544861, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
+      propertyPath: m_Name
+      value: PressurePlate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4976c3b05371c14483dab0f45b68793, type: 3}
