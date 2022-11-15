@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PressurePlateActivate
+  m_Name: PressurePlate_Default
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -21,20 +21,11 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: {x: 1, y: 0.8125, z: 0}
-        inSlope: {x: 0, y: -0.01313873, z: 0}
-        outSlope: {x: Infinity, y: -0.01313873, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
-        weightedMode: 2
+        weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.5320773, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.41666666
-        value: {x: 1, y: 0.5625, z: 0}
-        inSlope: {x: Infinity, y: -0.045671854, z: 0}
-        outSlope: {x: 0, y: -0.021507494, z: 0}
-        tangentMode: 0
-        weightedMode: 3
-        inWeight: {x: 0.33333334, y: 0.67962784, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -46,8 +37,6 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 446120589, guid: 7ba40b429427aa9488e77393298558c7, type: 3}
-    - time: 0.25
-      value: {fileID: -803130437, guid: 7ba40b429427aa9488e77393298558c7, type: 3}
     attribute: m_Sprite
     path: Base
     classID: 212
@@ -60,28 +49,27 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2959079519
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
       path: 1619415391
       attribute: 0
       script: {fileID: 0}
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 2959079519
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
     pptrCurveMapping:
     - {fileID: 446120589, guid: 7ba40b429427aa9488e77393298558c7, type: 3}
-    - {fileID: -803130437, guid: 7ba40b429427aa9488e77393298558c7, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.41666666
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -104,17 +92,8 @@ AnimationClip:
         time: 0
         value: 1
         inSlope: 0
-        outSlope: Infinity
-        tangentMode: 97
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 1
-        inSlope: Infinity
         outSlope: 0
-        tangentMode: 7
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
@@ -131,20 +110,11 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 0.8125
-        inSlope: -0.01313873
-        outSlope: -0.01313873
-        tangentMode: 0
-        weightedMode: 2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.5320773
-      - serializedVersion: 3
-        time: 0.41666666
-        value: 0.5625
-        inSlope: -0.045671854
-        outSlope: -0.021507494
-        tangentMode: 1
-        weightedMode: 3
-        inWeight: 0.67962784
         outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -158,15 +128,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.41666666
         value: 0
         inSlope: 0
         outSlope: 0

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerFoot : MonoBehaviour
+public class Player_Foot : MonoBehaviour
 {
     public int OnGroundTime;
     
