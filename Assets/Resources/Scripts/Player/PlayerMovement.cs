@@ -5,7 +5,7 @@ using System;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public PlayerFoot Foot;
+    public Player_Foot Foot;
     public Rigidbody2D Rigidbody;
 
 
